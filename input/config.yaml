@@ -1,0 +1,2 @@
+model_path: ../output
+data_path: ../input/credit_card_transactional_data.csv
