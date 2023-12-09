@@ -1,7 +1,5 @@
 # Fraudulent Transaction Detection using Isolation Forest and LOF
 
-## Project Overview
-
 ### Business Objective
 
 Fraudulent transactions in the banking or payment industry pose a significant challenge, resulting from illegal credit card usage without the cardholder's knowledge. Detecting fraudulent charges in real-time can help prevent financial losses and protect customer trust. 
@@ -48,22 +46,6 @@ The project follows a structured approach:
 - **src**: The core of the project, with modularized code organized into the `engine.py` file and the `ml_pipeline` folder. The `ml_pipeline` folder contains functions in separate Python files, used within `engine.py`.
 - **output**: Contains pre-trained models saved as `.pkl` files for future use.
 - **lib**: A reference folder containing the IPython notebooks.
----
-
-### Key Concepts Explored
-
-
-1. Understanding the problem of fraudulent transaction detection.
-2. Grasping the concept of anomaly detection.
-3. Learning the application of Isolation Forest and Local Outlier Factor algorithms.
-4. Effective handling of missing data and preprocessing.
-5. Finding correlations between features and determining contamination levels.
-6. Model training using Isolation Forest and LOF.
-7. Utilizing libraries such as scikit-learn, matplotlib, seaborn, pandas, and numpy.
-8. Creating and utilizing configuration files for customization.
-9. Visualizing data using count plots, box plots, and heatmaps.
-10. Implementing the Local Outlier Factor algorithm for anomaly detection.
-11. Calculating anomaly scores for identification.
 
 ---
 
